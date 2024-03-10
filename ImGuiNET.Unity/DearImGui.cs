@@ -23,7 +23,7 @@ namespace ImGuiNET.Unity
         [SerializeField] bool _doGlobalLayout = true; // do global/default Layout event too
 
         [SerializeField] Camera _camera = null;
-        [SerializeField] RenderImGuiFeature _renderFeature = null;
+        public RenderImGuiFeature _renderFeature = null;
 
         [SerializeField] RenderUtils.RenderType _rendererType = RenderUtils.RenderType.Mesh;
         [SerializeField] Platform.Type _platformType = Platform.Type.InputManager;
